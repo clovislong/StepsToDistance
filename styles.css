@@ -1,0 +1,67 @@
+body {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 2rem;
+	color: grey;
+	margin: 0;
+}
+.card {
+	margin: 5%;
+	padding: 20pt;
+	background-color: lightblue;
+	border-radius: 50pt;
+	box-shadow: 50pt;
+}
+p {
+	margin: 2%;
+}
+
+h1,
+h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 7rem;
+	color: white;
+	margin: 0;
+}
+h4 {
+	margin: 0;
+}
+
+hr {
+	margin: 2%;
+}
+
+button {
+	padding: 1em;
+	margin: 0% 2% 5%;
+	font-family: 'Lato', sans-serif;
+	font-size: 2rem;
+	color: grey;
+	background-color: lightblue;
+	border-radius: 20pt;
+}
+
+/* .settings {
+	position: fixed;
+	top: 0;
+} */
+
+input[type="number"] {
+	height: 3rem;
+	margin: 5%;
+	font-size: 3rem;
+	width: 30%;
+}
+
+input[type="checkbox"] {
+	transform: scale(3);
+	margin: 5%;
+}
+
+button.white-btn {
+	background-color: white;
+}
+
+.hidden {
+	display: none;
+}

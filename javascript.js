@@ -21,6 +21,7 @@ body.addEventListener('click', function() {
 	steps.innerText = numSteps;
 	distance.innerText = Math.floor(numSteps * multiplier);
 });
+
 reset.addEventListener('click', function() {
 	numSteps = 0;
 	numSteps--;
